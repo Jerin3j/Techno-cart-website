@@ -95,13 +95,14 @@ header {
 
 .layer {
     background: rgba(25, 98, 106, 0.23);
-    background: rgba(0, 0, 0, 0.39);
+    background: rgba(0, 0, 0, 0.637);
     padding: 19vw 0 0;
     min-height: 100vh;
 }
 
 .agile_banner.bg1 {
-    background: url(../images/banner.jpg) center no-repeat;
+    background: url(../images/banner.jpg) center no-repeat; 
+    background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -199,7 +200,7 @@ span.banner_text_w3ls {
 /* inner banner */
 
 .inner-banner-agile {
-    background: url(../images/bg.jpg) no-repeat center;
+    background: #900C3F;
     background-size: cover;
     min-height: 300px;
 }
@@ -210,20 +211,20 @@ span.banner_text_w3ls {
 }
 
 .inner-banner-agile.banner-port {
-    background: #e64c3e;
+    background: #FA5F55;
 }
 
 .inner-banner-agile.services {
-    background: #19adf2;
+    background: #0000cd;
 }
 
 .inner-banner-agile.contact-bg {
-    background: #fbcf4a url(../images/bg.png) center no-repeat;
+    background: #088F8F url(../images/bg.png) center no-repeat;
     background-size: cover;
 }
 
 .wthree-inner-sec {
-    background: #1d1c1b;
+    background: #1B1212;
     margin-top: -140px;
     border-radius: 30px;
     padding: 2em;
@@ -334,7 +335,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked+.checkbox-label {
-    background-color: #dba539;
+    background-color: #988ce0;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -346,6 +347,7 @@ input[type="checkbox"]:checked+.checkbox-label {
     padding: 30px 0;
     border: 1px solid #d4d4d4;
     color: #34495e;
+    border-radius:7px;
     cursor: pointer;
 }
 
@@ -497,7 +499,7 @@ input[type=range]::-ms-track {
     position: absolute;
     top: 8%;
     left: 34%;
-    color: #333;
+    color: rgb(22, 22, 22);
     z-index: 2;
     font-weight: 700;
     font-size: 4.5em;
@@ -531,7 +533,6 @@ input[type=range]::-ms-track {
     position: absolute;
     width: 50%;
     height: 20px;
-    content: ' ';
     left: 25px;
     bottom: 30px;
     transform: skew(-7deg) rotate(-3deg);
@@ -866,7 +867,7 @@ input[type=range]::-ms-track {
 .icon i {
     width: 70px;
     height: 70px;
-    color: #dc143c;
+    color: #0000cd;
     border-radius: 50%;
     line-height: 70px;
     text-align: center;
